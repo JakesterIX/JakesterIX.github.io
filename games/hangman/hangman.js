@@ -51,7 +51,7 @@ function handleGuess(chosenLetter){
 }
 
 function updatePic(){
-    hangPic.src = `./hangmanPics/${mistakes}.JPG`
+    hangPic.src = `./hangmanPics/${mistakes}.jpg`
 }
 
 function checkGameWon(){
