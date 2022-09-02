@@ -48,7 +48,7 @@ function startMatch(){
 }
 
 function matchWords(){
-    if(wordInput.value === word.innerHTML){
+    if(wordInput.value.toLowerCase() === word.innerHTML.toLowerCase()){
         return true;
     }
     else{
