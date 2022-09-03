@@ -248,6 +248,10 @@ nav {
     transition: 0.1s;
 }
 
+#mash-hide{
+    display: none;
+}
+
 /************TIC TAC TOE****************/
 .center{
     left: 50%;
