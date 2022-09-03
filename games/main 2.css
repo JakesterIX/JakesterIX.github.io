@@ -339,14 +339,13 @@ nav {
   border-right: none;
 }
 
-@media screen and (max-width: 767px){    
+@media screen and (max-width: 300px){    
     .game-board{
         height: 220px;
         width: 220px;
     }
     .tic-tac-toe-head{
         font-size: 2rem;
-        margin-top: 20px;
     }
     #game-status{
         font-size: 2rem;

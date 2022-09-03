@@ -1,6 +1,7 @@
 const h1 = document.querySelector('h1');
 const p = document.querySelector('p');
 const start = document.querySelector('.mash-start');
+const body = document.querySelector('html');
 
 let score = 0;
 
@@ -9,7 +10,7 @@ start.addEventListener('click', () => {
     p.innerText = "";
     countdown();
       setTimeout(() => {
-      aKeyPress();
+      addScore();
       setTimeout(() => {
         h1.innerText = `You mashed ${score} times!`
         p.innerText = "click start to try for a better score!"
@@ -30,13 +31,9 @@ function countdown() {
         h1.innerText = "3"
 }
 
-function aKeyPress() {
-    document.body.onkeyup = function(e) {
-        if (e.key == " " ||
-            e.code == "KeyA"  
-        ) {
-          score += 1;
-        }
-      }
+function addScore() {
+    body.addEventListener("click", () => {
+      score++;
+    })
 }
 
