@@ -73,7 +73,7 @@ function isGameOver(){
     }
 
     if(gameOver){
-        ctx.fillStyle = "#272929";
+        ctx.fillStyle = "#636969";
         ctx.font = "50px Silkscreen";
         ctx.fillText("Game Over!", canvas.width / 12, canvas.height / 2);
     }
@@ -82,7 +82,7 @@ function isGameOver(){
 }
 
 function drawScore(){
-    ctx.fillStyle = "#272929";
+    ctx.fillStyle = "#3f4242";
     ctx.font = "20px 'Silkscreen'"
     ctx.fillText("Score: " + score, canvas.width - 125, 20)
 }
