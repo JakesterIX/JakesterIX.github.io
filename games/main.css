@@ -230,22 +230,21 @@ nav {
 
 .mash-start{
     background-color: #EB1D36;
-    border-radius: 50%;
+    border-radius: 10px;
     border: 2px solid #b22323;
     box-shadow: #000000 5px 5px 10px;
     color: rgb(255, 255, 255);
     font-family: 'Quicksand', sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     margin-top: 50px;
-    min-height:30px;
-    min-width: 120px;
-    padding: 90px;
+    min-height:20px;
+    min-width: 30px;
+    padding: 30px;
 }
 
 .mash-start:active{
     background-color: #e22424;
-    transform: translateY(2px);
-    transition: 0.1s;
+    transform: translateY(1px);
 }
 
 #mash-hide{
